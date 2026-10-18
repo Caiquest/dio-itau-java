@@ -14,7 +14,9 @@ public class Main {
             n = scanner.nextInt();
             if (n < number1) {
                 continue;
+                //usar o continue para saltar para fora do if foi a melhor coisa
             }else if(n % number1 !=0 ){
+                //Tinha esquecido completamente que poderia usar o break e isso salvou
                 break;
             }
             System.out.println("Divisão com resto 0");
