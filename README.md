@@ -17,15 +17,15 @@ Meus estudos, anotações e exercícios resolvidos no<br>
 
 ## 📌 Sobre
 
-Este repositório registra minha evolução no bootcamp, do primeiro `Hello World` até APIs com Spring. Cada aula e cada desafio virou um projeto pequeno e independente, com comentários no código sobre o que aprendi em cada etapa — inclusive nas soluções que deram mais trabalho.
+Este repositório registra minha evolução no bootcamp, do primeiro `Hello World` até APIs com Spring. Cada aula e cada desafio virou um projeto pequeno e independente, com comentários no código sobre o que aprendi em cada etapa, inclusive nas soluções que deram mais trabalho.
 
 ## 🗺️ Progresso
 
 | # | Módulo | Pasta | Status |
 |:-:|--------|-------|:------:|
 | 1 | Potencializando sua jornada com IA e agentes | [`01-fundamentos-ia`](01-fundamentos-ia) | ✅ Concluído |
-| 2 | Fundamentos para começar a programar em Java | [`02-fundamentos-java`](02-fundamentos-java) | 🚧 Em andamento |
-| 3 | Programando o mundo real com Orientação a Objetos | [`03-orientacao-objetos`](03-orientacao-objetos) | ⏳ Próximo |
+| 2 | Fundamentos para começar a programar em Java | [`02-fundamentos-java`](02-fundamentos-java) | ✅ Concluído |
+| 3 | Programando o mundo real com Orientação a Objetos | [`03-orientacao-objetos`](03-orientacao-objetos) | 🚧 Em andamento |
 | 4 | Fundamentos da Web e boas práticas com Java | [`04-boas-praticas-e-web`](04-boas-praticas-e-web) | ⏳ Planejado |
 | 5 | APIs modernas no ecossistema Spring (Boot, Data, Security, Cloud e AI) | [`05-ecossistema-spring`](05-ecossistema-spring) | ⏳ Planejado |
 
