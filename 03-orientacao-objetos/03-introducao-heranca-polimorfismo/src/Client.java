@@ -1,4 +1,4 @@
-public class Client extends Salesman{
+public class Client{
     private String document;
 
     public String getDocument(){
