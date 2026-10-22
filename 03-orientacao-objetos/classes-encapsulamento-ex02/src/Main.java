@@ -28,8 +28,59 @@ O carro só pode virar para esquerda/direita se sua velocidade for de no mínimi
 
  */
 
+import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Entrando no carro...");
+        Car car = new Car();
+        int option;
+        do {
+            System.out.printf("[ %s | Marcha: %d | %d km/h ]%n", car.isEngineOn() ? "LIGADO" : "DESLIGADO", car.getGearCar(),
+                    car.getCarSpeed());
+            printMenu();
+            System.out.println("Selecione uma opção: ");
+            option = scanner.nextInt();
+            switch (option){
+                case 1 -> {
+                    System.out.println("\nLigando o carro...");
+                    car.turnOn();
+                }
+                case 2 -> car.turnOff();
+                case 3 -> car.accelerate();
 
+                case 4 -> car.slowDown();
+
+                case 5 -> car.turnLeft();
+
+                case 6 -> car.turnRight();
+
+                case 7 -> car.gearUp();
+
+                case 8 -> car.gearDown();
+
+                case 0 ->{
+                    System.out.println("Saindo do carro...");
+                }
+                default -> System.out.println("Opção inválida, tente novamente");
+            };
+        }while(option!= 0);
+
+        scanner.close();
     }
+    private static void printMenu() {
+        System.out.print("""
+            
+            ========== PAINEL DO CARRO ==========
+             1 - Ligar          2 - Desligar
+             3 - Acelerar       4 - Frear
+             5 - Virar esq.     6 - Virar dir.
+             7 - Subir marcha   8 - Reduzir marcha
+             0 - Sair
+            =====================================
+            """);
+    }
+
+
 }
