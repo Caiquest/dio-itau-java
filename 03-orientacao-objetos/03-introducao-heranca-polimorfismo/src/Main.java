@@ -27,7 +27,7 @@ public class Main {
                 System.out.println(manager.getLogin());
                 System.out.println(manager.getPassword());
                 System.out.println(manager.getCommission());
-
+                System.out.println(manager.getFullSalary(500));
 
             }
             case Salesman salesman -> {

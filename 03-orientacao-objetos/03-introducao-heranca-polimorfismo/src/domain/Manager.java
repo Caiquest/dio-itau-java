@@ -57,4 +57,9 @@ public non-sealed class Manager extends Employee{
     public void setCommission(double commission) {
         this.commission = commission;
     }
+
+    public double getFullSalary(double extra){
+        return this.getFullSalary() + extra;
+    }
+
 }
