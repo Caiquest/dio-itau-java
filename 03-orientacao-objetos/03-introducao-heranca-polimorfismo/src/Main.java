@@ -18,7 +18,7 @@ public class Main {
                 manager.setSalary(5000);
                 manager.setLogin("joao");
                 manager.setPassword("123456");
-                manager.setComission(1200);
+                manager.setCommission(1200);
 
 
                 System.out.println(manager.getCode());
@@ -26,7 +26,7 @@ public class Main {
                 System.out.println(manager.getName());
                 System.out.println(manager.getLogin());
                 System.out.println(manager.getPassword());
-                System.out.println(manager.getComission());
+                System.out.println(manager.getCommission());
 
 
             }
@@ -34,14 +34,17 @@ public class Main {
                 salesman.setCode("456");
                 salesman.setName("João");
                 salesman.setSalary(2800);
-                salesman.setPercentSold(10);
+                salesman.setPercentPerSold(10);
+                salesman.setSoldAmount(1000);
 
                 System.out.println(salesman.getCode());
                 System.out.println(salesman.getSalary());
                 System.out.println(salesman.getName());
-                System.out.println(salesman.getPercentSold());
+                System.out.println(salesman.getPercentPerSold());
+                System.out.println(salesman.getSoldAmount());
             }
         }
+        System.out.println(employee.getFullSalary());
         System.out.println("=============");
     }
 
