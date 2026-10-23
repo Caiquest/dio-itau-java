@@ -1,13 +1,15 @@
+package domain;
+
 public sealed abstract class Employee permits Manager, Salesman {
-    private String code;
+    protected String code;
 
-    private String name;
+    protected String name;
 
-    private String address;
+    protected String address;
 
-    private int age;
+    protected int age;
 
-    private double salary;
+    protected double salary;
 
     public Employee(String code, String name, String address, int age, double salary) {
         this.code = code;

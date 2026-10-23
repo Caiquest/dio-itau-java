@@ -1,3 +1,7 @@
+import domain.Employee;
+import domain.Manager;
+import domain.Salesman;
+
 public class Main {
     public void main(String[] args) {
         printEmployee(new Manager());
@@ -6,10 +10,7 @@ public class Main {
     }
 
     public static void printEmployee(Employee employee) {
-
         System.out.printf("=======%s=======\n", employee.getClass().getCanonicalName());
-
-        System.out.println("================");
         switch (employee) {
             case Manager manager -> {
                 manager.setCode("123");
@@ -30,7 +31,7 @@ public class Main {
 
             }
             case Salesman salesman -> {
-                salesman.setCode("123456");
+                salesman.setCode("456");
                 salesman.setName("João");
                 salesman.setSalary(2800);
                 salesman.setPercentSold(10);
